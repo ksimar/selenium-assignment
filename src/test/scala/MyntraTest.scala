@@ -76,6 +76,7 @@ class MyntraTest extends FlatSpec with TestSetUp{
   }
 
   "user" should "be able to see all items added to cart" in {
-    
+    driver.findElementByCssSelector("a.pdp-goToCart").click()
+
   }
 }
